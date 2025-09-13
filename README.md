@@ -3,7 +3,9 @@
 
 --- 
 
+`main.py` is located in the `./Game` directory, along with GameInstance-specific code.
 
+Code not related to the instance themselves ("Core files") are located in the `./GameCore` directory.
 
 ---
 
