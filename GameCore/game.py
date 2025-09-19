@@ -6,12 +6,13 @@ class Game:
     def __init__(self, fps, width, height):
         # Define constructor variables
         self.FPS = fps
-        self.WIDTH = width
-        self.HEIGHT = height
+        self.width = width
+        self.height = height
+        self.delta_time = 1
 
         # Initiate pygame window
         pygame.init()
-        self.screen = pygame.display.set_mode((width, height))
+        self.screen = pygame.display.set_mode((self.width, self.height))
         self.clock = pygame.time.Clock()
         self.create_new_game()
 
@@ -20,7 +21,7 @@ class Game:
 
     def update(self):
         pygame.display.flip()
-        self.clock.tick(self.FPS)
+        self.delta_time = self.clock.tick(self.FPS)
         pygame.display.set_caption("Creeperstone " + " FPS:" f'{self.clock.get_fps() : .1f}')
 
     def draw(self):

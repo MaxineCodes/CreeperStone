@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abbcc7b6-f0a4-420d-8199-60eadf68b9fc" name="Changes" comment="Updated readme some more">
+    <list default="true" id="abbcc7b6-f0a4-420d-8199-60eadf68b9fc" name="Changes" comment="minimap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameCore/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameCore/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameCore/game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameCore/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameCore/map.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,11 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\2025\CreeperStone\GameCore" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -98,13 +103,22 @@
       <option name="project" value="LOCAL" />
       <updated>1757748257191</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="minimap">
+      <option name="closed" value="true" />
+      <created>1757749151521</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757749151521</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project setup" />
     <MESSAGE value="project structure and pygame main window" />
     <MESSAGE value="Updated readme some more" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated readme some more" />
+    <MESSAGE value="minimap" />
+    <option name="LAST_COMMIT_MESSAGE" value="minimap" />
   </component>
 </project>
