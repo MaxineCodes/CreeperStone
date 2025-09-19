@@ -1,6 +1,7 @@
 import pygame as pygame
 import sys
 from .map import *
+from .player import *
 
 class Game:
     def __init__(self, fps, width, height):
@@ -18,8 +19,10 @@ class Game:
 
     def create_new_game(self):
         self.map = Map(self)
+        self.player = Player(self)
 
     def update(self):
+        self.player.update()
         pygame.display.flip()
         self.delta_time = self.clock.tick(self.FPS)
         pygame.display.set_caption("Creeperstone " + " FPS:" f'{self.clock.get_fps() : .1f}')
@@ -27,6 +30,7 @@ class Game:
     def draw(self):
         self.screen.fill('black')
         self.map.draw()
+        self.player.draw()
 
     def check_events(self):
         for event in pygame.event.get():
