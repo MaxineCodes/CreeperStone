@@ -1,7 +1,10 @@
 import pygame as pygame
 import sys
+
+from . import raycasting
 from .map import *
 from .player import *
+from .raycasting import RayCasting
 
 class Game:
     def __init__(self, fps, width, height):
@@ -20,9 +23,11 @@ class Game:
     def create_new_game(self):
         self.map = Map(self)
         self.player = Player(self)
+        self.raycasting = RayCasting(self)
 
     def update(self):
         self.player.update()
+        self.raycasting.update()
         pygame.display.flip()
         self.delta_time = self.clock.tick(self.FPS)
         pygame.display.set_caption("Creeperstone " + " FPS:" f'{self.clock.get_fps() : .1f}')
