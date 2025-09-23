@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abbcc7b6-f0a4-420d-8199-60eadf68b9fc" name="Changes" comment="Testing map updated to fit aspect ratio">
+    <list default="true" id="abbcc7b6-f0a4-420d-8199-60eadf68b9fc" name="Changes" comment="player movement and basic tile based collision detection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameCore/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameCore/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameCore/raycasting.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameCore/raycasting.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +31,12 @@
     &quot;assignee&quot;: &quot;MaxineCodes&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MaxineCodes/CreeperStone.git",
-    "accountId": "a3ee115e-f12a-43e6-95b2-88c9980dfc4c"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MaxineCodes/CreeperStone.git&quot;,
+    &quot;accountId&quot;: &quot;b0adf6d4-5daa-4971-a54d-954670928e4a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -48,7 +51,8 @@
     "Python.game.executor": "Run",
     "Python.helloworld.executor": "Run",
     "Python.main.executor": "Run",
-    "Python.map.executor": "Run",
+    "Python.player.executor": "Run",
+    "Python.settings.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -58,6 +62,11 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\2025\CreeperStone\GameCore" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -97,22 +106,60 @@
       <option name="project" value="LOCAL" />
       <updated>1757748257191</updated>
     </task>
-    <task id="LOCAL-00004" summary="Testing map updated to fit aspect ratio">
+    <task id="LOCAL-00004" summary="minimap">
       <option name="closed" value="true" />
-      <created>1758092736630</created>
+      <created>1757749151521</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1758092736630</updated>
+      <updated>1757749151521</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="player setup">
+      <option name="closed" value="true" />
+      <created>1758266871903</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758266871903</updated>
+    </task>
+    <task id="LOCAL-00006" summary="minecraft sprites">
+      <option name="closed" value="true" />
+      <created>1758266927726</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758266927726</updated>
+    </task>
+    <task id="LOCAL-00007" summary="player movement and basic tile based collision detection">
+      <option name="closed" value="true" />
+      <created>1758270118373</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758270118373</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project setup" />
     <MESSAGE value="project structure and pygame main window" />
     <MESSAGE value="Updated readme some more" />
-    <MESSAGE value="Testing map updated to fit aspect ratio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing map updated to fit aspect ratio" />
+    <MESSAGE value="minimap" />
+    <MESSAGE value="player setup" />
+    <MESSAGE value="minecraft sprites" />
+    <MESSAGE value="player movement and basic tile based collision detection" />
+    <option name="LAST_COMMIT_MESSAGE" value="player movement and basic tile based collision detection" />
   </component>
 </project>

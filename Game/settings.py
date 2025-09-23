@@ -1,3 +1,17 @@
+import math
+
 # Game Settings
 RES = WIDTH, HEIGHT = 1600, 900
 FPS = 60
+
+# Player settings
+PLAYER_POSITION = 1.5, 5
+PLAYER_ANGLE = 0
+PLAYER_SPEED = 0.004
+PLAYER_ROTATION_SPEED = 0.002
+
+# Raycasting settings
+FOV = math.pi / 3
+NUMBER_OF_RAYS = WIDTH // 2
+DELTA_ANGLE = FOV / NUMBER_OF_RAYS
+MAXIMUM_DEPTH = 20
