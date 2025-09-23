@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abbcc7b6-f0a4-420d-8199-60eadf68b9fc" name="Changes" comment="Updated readme some more">
+    <list default="true" id="abbcc7b6-f0a4-420d-8199-60eadf68b9fc" name="Changes" comment="Testing map updated to fit aspect ratio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameCore/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameCore/game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameCore/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameCore/map.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,21 +22,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MaxineCodes"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MaxineCodes&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/MaxineCodes/CreeperStone.git",
-    "accountId": "b0adf6d4-5daa-4971-a54d-954670928e4a"
+    "accountId": "a3ee115e-f12a-43e6-95b2-88c9980dfc4c"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="32dKWfiVimx3N9OnAcXkJ2qxNcd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,12 +48,14 @@
     "Python.game.executor": "Run",
     "Python.helloworld.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.map.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "last_opened_file_path": "C:/Dev/CreeperStone",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -98,13 +97,22 @@
       <option name="project" value="LOCAL" />
       <updated>1757748257191</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Testing map updated to fit aspect ratio">
+      <option name="closed" value="true" />
+      <created>1758092736630</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758092736630</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project setup" />
     <MESSAGE value="project structure and pygame main window" />
     <MESSAGE value="Updated readme some more" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated readme some more" />
+    <MESSAGE value="Testing map updated to fit aspect ratio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing map updated to fit aspect ratio" />
   </component>
 </project>
